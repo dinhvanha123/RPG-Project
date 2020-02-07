@@ -62,8 +62,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\FollowCamera.cs" />
-    <Compile Include="Assets\Scripts\Mover.cs" />
+    <Compile Include="Assets\Scripts\Combat\CombatTarget.cs" />
+    <Compile Include="Assets\Scripts\Combat\Fighter.cs" />
+    <Compile Include="Assets\Scripts\Control\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Core\FollowCamera.cs" />
+    <Compile Include="Assets\Scripts\Movement\Mover.cs" />
     <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>F:/VanHa/Unity/Unity3D/RPG Project/RPG Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
