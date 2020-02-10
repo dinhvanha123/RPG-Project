@@ -890,6 +890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponRange: 2
   target: {fileID: 0}
+  timeBetweenAttack: 1
 --- !u!4 &1077701029 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4091542614303710925, guid: 535529799a3b75541b8eb128a1b0dfbf,
