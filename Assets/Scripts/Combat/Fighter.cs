@@ -12,7 +12,7 @@ namespace RPG.Combat
         [SerializeField] float weaponRange = 2f;
         [SerializeField] Transform target;
         [SerializeField] float timeBetweenAttack = 1f;
-
+        [SerializeField] float weaponDamage = 5f;
         float timeSinceLastAttack = 0f;
 
         private void Update()
@@ -53,6 +53,11 @@ namespace RPG.Combat
         public void Cancel()
         {
             target = null;
+        }
+        public void Hit()
+        {
+            Debug.Log("hit");
+            target.GetComponent<Health>().TakeDamage(weaponDamage);
         }
     }
 }
