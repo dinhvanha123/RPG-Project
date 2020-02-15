@@ -4,7 +4,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.AI;
 namespace RPG.Combat
 {
     public class Fighter : MonoBehaviour, IAction
@@ -14,7 +14,11 @@ namespace RPG.Combat
         [SerializeField] float timeBetweenAttack = 1f;
         [SerializeField] float weaponDamage = 5f;
         float timeSinceLastAttack = Mathf.Infinity;
-
+        NavMeshAgent navMeshAgent;
+        private void Start()
+        {
+            navMeshAgent = GetComponent<NavMeshAgent>();
+        }
         private void Update()
         {
             timeSinceLastAttack += Time.deltaTime;
