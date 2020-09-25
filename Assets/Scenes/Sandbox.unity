@@ -550,9 +550,105 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Resolution: 20
   m_Appearance:
-    pathColor: {r: 0, g: 1, b: 0, a: 1}
-    inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    pathColor:
+      r: 0
+      g: 1
+      b: 0
+      a: 1
+    inactivePathColor:
+      r: 0.5
+      g: 0.5
+      b: 0.5
+      a: 1
     width: 1
+  m_DistanceToPos:
+  - 0
+  - 0.058530882
+  - 0.117349304
+  - 0.17671807
+  - 0.23690738
+  - 0.2981957
+  - 0.36110684
+  - 0.42581165
+  - 0.49252397
+  - 0.5617048
+  - 0.63325715
+  - 0.7067041
+  - 0.78112435
+  - 0.8547853
+  - 0.9255222
+  - 0.9923193
+  - 1.0541929
+  - 1.1113575
+  - 1.164845
+  - 1.2152317
+  - 1.2630281
+  - 1.3086634
+  - 1.3524879
+  - 1.3945785
+  - 1.4352766
+  - 1.474889
+  - 1.5135721
+  - 1.5514498
+  - 1.5883453
+  - 1.6246454
+  - 1.6604531
+  - 1.6957445
+  - 1.7305006
+  - 1.7649672
+  - 1.7991563
+  - 1.8329687
+  - 1.8666304
+  - 1.900148
+  - 1.9334788
+  - 1.9667627
+  - 2.0000005
+  m_PosToDistance:
+  - 0
+  - 0.6623335
+  - 1.3224171
+  - 1.9780447
+  - 2.6270843
+  - 3.2675216
+  - 3.8975108
+  - 4.5154395
+  - 5.1199894
+  - 5.710223
+  - 6.2856865
+  - 6.8465247
+  - 7.393621
+  - 7.928743
+  - 8.454691
+  - 8.975403
+  - 9.495995
+  - 10.022729
+  - 10.562828
+  - 11.124197
+  - 11.715103
+  - 12.343163
+  - 13.01244
+  - 13.724763
+  - 14.480698
+  - 15.2798815
+  - 16.12125
+  - 17.003214
+  - 17.923796
+  - 18.880714
+  - 19.87146
+  - 20.893349
+  - 21.943552
+  - 23.01913
+  - 24.11707
+  - 25.234278
+  - 26.367613
+  - 27.5139
+  - 28.669916
+  - 29.83244
+  - 30.998217
+  m_CachedSampleSteps: 20
+  m_PathLength: 30.998217
+  m_cachedPosStepSize: 0.05
+  m_cachedDistanceStepSize: 0.7749554
   m_Looped: 0
   m_Waypoints:
   - position: {x: 1.5561085, y: 0, z: -7.6411133}
@@ -561,6 +657,21 @@ MonoBehaviour:
     roll: 0
   - position: {x: -6.8121142, y: 0, z: 15.224361}
     roll: 0
+  m_ControlPoints1:
+  - position: {x: 4.610693, y: 1.6143883, z: -4.8874874}
+    roll: 0
+  - position: {x: 4.8758698, y: 3.2287767, z: 5.487964}
+    roll: 0
+  - position: {x: 0, y: 0, z: 0}
+    roll: 0
+  m_ControlPoints2:
+  - position: {x: 7.6652775, y: 3.2287767, z: -2.133861}
+    roll: 0
+  - position: {x: -0.96812224, y: 1.6143883, z: 10.356163}
+    roll: 0
+  - position: {x: 0, y: 0, z: 0}
+    roll: 0
+  m_IsLoopedCache: 0
 --- !u!1001 &166988083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -745,9 +856,16 @@ MonoBehaviour:
   m_ExcludedPropertiesInInspector:
   - m_Script
   m_LockStageInInspector: 
+  m_ValidatingStreamVersion: 20170927
+  m_OnValidateCalled: 1
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
+  mExtensions: []
+  <PreviousStateIsValid>k__BackingField: 1
+  mSlaveStatusUpdated: 1
+  m_parentVcam: {fileID: 0}
+  m_QueuePriority: 10
   m_LookAt: {fileID: 95654474}
   m_Follow: {fileID: 0}
   m_Lens:
@@ -756,6 +874,9 @@ MonoBehaviour:
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
+    <Orthographic>k__BackingField: 0
+    <SensorSize>k__BackingField: {x: 2.0412757, y: 1}
+    <IsPhysicalCamera>k__BackingField: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
     m_BlendHint: 0
@@ -765,8 +886,15 @@ MonoBehaviour:
         m_Calls: []
       m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+      m_CallsDirty: 1
   m_LegacyBlendHint: 0
+  <UserIsDragging>k__BackingField: 0
+  m_ComponentPipeline:
+  - {fileID: 963633698}
+  - {fileID: 963633699}
   m_ComponentOwner: {fileID: 963633697}
+  mCachedLookAtTarget: {fileID: 95654474}
+  mCachedLookAtTargetVcam: {fileID: 0}
 --- !u!4 &197046418
 Transform:
   m_ObjectHideFlags: 0
@@ -1212,9 +1340,16 @@ MonoBehaviour:
   m_ExcludedPropertiesInInspector:
   - m_Script
   m_LockStageInInspector: 
+  m_ValidatingStreamVersion: 20170927
+  m_OnValidateCalled: 1
   m_StreamingVersion: 20170927
   m_Priority: 100
   m_StandbyUpdate: 2
+  mExtensions: []
+  <PreviousStateIsValid>k__BackingField: 1
+  mSlaveStatusUpdated: 1
+  m_parentVcam: {fileID: 0}
+  m_QueuePriority: 100
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 253278966}
   m_Lens:
@@ -1223,6 +1358,9 @@ MonoBehaviour:
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
+    <Orthographic>k__BackingField: 0
+    <SensorSize>k__BackingField: {x: 2.0412757, y: 1}
+    <IsPhysicalCamera>k__BackingField: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
     m_BlendHint: 0
@@ -1232,8 +1370,15 @@ MonoBehaviour:
         m_Calls: []
       m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+      m_CallsDirty: 0
   m_LegacyBlendHint: 0
+  <UserIsDragging>k__BackingField: 0
+  m_ComponentPipeline:
+  - {fileID: 1048769673}
+  - {fileID: 1048769674}
   m_ComponentOwner: {fileID: 1048769672}
+  mCachedLookAtTarget: {fileID: 0}
+  mCachedLookAtTargetVcam: {fileID: 0}
 --- !u!1001 &661990774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1356,22 +1501,25 @@ MonoBehaviour:
     m_Style: 1
     m_Time: 2
     m_CustomCurve:
-      serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
   m_CustomBlends: {fileID: 0}
+  m_OutputCamera: {fileID: 700536686}
   m_CameraCutEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 0
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    m_CallsDirty: 0
+  mNextFrameId: 1
 --- !u!81 &700536685
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1710,6 +1858,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 418e42c7d0405cc48a7b83f63ea53bb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_vcamOwner: {fileID: 0}
+  mCachedFollowTarget: {fileID: 0}
+  mCachedFollowTargetVcam: {fileID: 0}
+  mCachedLookAtTarget: {fileID: 0}
+  mCachedLookAtTargetVcam: {fileID: 0}
   m_Path: {fileID: 164657728}
   m_PathPosition: 1
   m_PositionUnits: 2
@@ -1726,6 +1879,9 @@ MonoBehaviour:
     m_PositionOffset: 0
     m_SearchRadius: 2
     m_SearchResolution: 5
+  m_PreviousPathPosition: 1
+  m_PreviousOrientation: {x: 0.028754687, y: -0.75488085, z: 0.033170324, w: 0.65439117}
+  m_PreviousCameraPosition: {x: 1.1026955, y: 1.8965218, z: 35.624466}
 --- !u!114 &779728263
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1738,6 +1894,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_vcamOwner: {fileID: 1918355301}
+  mCachedFollowTarget: {fileID: 0}
+  mCachedFollowTargetVcam: {fileID: 0}
+  mCachedLookAtTarget: {fileID: 35862514}
+  mCachedLookAtTargetVcam: {fileID: 0}
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
@@ -1753,6 +1914,12 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
+  <TrackedPoint>k__BackingField: {x: 5.964813, y: 1.5211983, z: 19.93389}
+  m_CameraPosPrevFrame: {x: 1.1026955, y: 1.8965218, z: 35.624466}
+  m_LookAtPrevFrame: {x: 5.964813, y: 1.5211983, z: 19.93389}
+  m_ScreenOffsetPrevFrame: {x: 0.00000052564974, y: -0.0000018049354}
+  m_CameraOrientationPrevFrame: {x: -0.0017096624, y: -0.9886698, z: 0.011293318,
+    w: -0.14967142}
 --- !u!114 &779728264
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1828,6 +1995,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_vcamOwner: {fileID: 197046417}
+  mCachedFollowTarget: {fileID: 0}
+  mCachedFollowTargetVcam: {fileID: 0}
+  mCachedLookAtTarget: {fileID: 0}
+  mCachedLookAtTargetVcam: {fileID: 0}
   m_BindingMode: 1
   m_FollowOffset: {x: -6.381901, y: -2.6317072, z: -5.267973}
   m_XDamping: 1
@@ -1838,6 +2010,11 @@ MonoBehaviour:
   m_YawDamping: 0
   m_RollDamping: 0
   m_AngularDamping: 0
+  <HideOffsetInInspector>k__BackingField: 0
+  m_PreviousTargetPosition: {x: 0, y: 0, z: 0}
+  m_PreviousReferenceOrientation: {x: 0, y: 0, z: 0, w: 1}
+  m_targetOrientationOnAssign: {x: 0, y: 0, z: 0, w: 1}
+  m_previousTarget: {fileID: 0}
 --- !u!114 &963633699
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1850,6 +2027,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_vcamOwner: {fileID: 197046417}
+  mCachedFollowTarget: {fileID: 0}
+  mCachedFollowTargetVcam: {fileID: 0}
+  mCachedLookAtTarget: {fileID: 95654474}
+  mCachedLookAtTargetVcam: {fileID: 0}
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
@@ -1865,6 +2047,12 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
+  <TrackedPoint>k__BackingField: {x: 21.82481, y: 1.5211983, z: 4.76389}
+  m_CameraPosPrevFrame: {x: 21.73, y: 4.36, z: -1.6800003}
+  m_LookAtPrevFrame: {x: 21.82481, y: 1.5211983, z: 4.76389}
+  m_ScreenOffsetPrevFrame: {x: 0.00000044015957, y: -0.000000013259174}
+  m_CameraOrientationPrevFrame: {x: 0.20596977, y: 0.007198288, z: -0.0015151592,
+    w: 0.9785307}
 --- !u!114 &963633700
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2006,6 +2194,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_vcamOwner: {fileID: 657237602}
+  mCachedFollowTarget: {fileID: 253278966}
+  mCachedFollowTargetVcam: {fileID: 0}
+  mCachedLookAtTarget: {fileID: 0}
+  mCachedLookAtTargetVcam: {fileID: 0}
   m_LookaheadTime: 0.2
   m_LookaheadSmoothing: 7.2
   m_LookaheadIgnoreY: 0
@@ -2035,6 +2228,30 @@ MonoBehaviour:
   m_MaximumFOV: 60
   m_MinimumOrthoSize: 1
   m_MaximumOrthoSize: 5000
+  m_PreviousCameraPosition: {x: 39.25481, y: 5.7865224, z: -23.629896}
+  <TrackedPoint>k__BackingField: {x: 39.25481, y: 1.5188026, z: -15.30611}
+  <InheritingPosition>k__BackingField: 0
+  m_prevFOV: 60
+  <LastBounds>k__BackingField:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  <LastBoundsMatrix>k__BackingField:
+    e00: 0
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 0
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 0
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 0
 --- !u!114 &1048769674
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2047,6 +2264,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_vcamOwner: {fileID: 657237602}
+  mCachedFollowTarget: {fileID: 0}
+  mCachedFollowTargetVcam: {fileID: 0}
+  mCachedLookAtTarget: {fileID: 0}
+  mCachedLookAtTargetVcam: {fileID: 0}
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
@@ -2062,6 +2284,11 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
+  <TrackedPoint>k__BackingField: {x: 0, y: 0, z: 0}
+  m_CameraPosPrevFrame: {x: 0, y: 0, z: 0}
+  m_LookAtPrevFrame: {x: 0, y: 0, z: 0}
+  m_ScreenOffsetPrevFrame: {x: 0, y: 0}
+  m_CameraOrientationPrevFrame: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &1048769675
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2550,9 +2777,16 @@ MonoBehaviour:
   m_ExcludedPropertiesInInspector:
   - m_Script
   m_LockStageInInspector: 
+  m_ValidatingStreamVersion: 20170927
+  m_OnValidateCalled: 1
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
+  mExtensions: []
+  <PreviousStateIsValid>k__BackingField: 1
+  mSlaveStatusUpdated: 1
+  m_parentVcam: {fileID: 0}
+  m_QueuePriority: 10
   m_LookAt: {fileID: 771203814}
   m_Follow: {fileID: 0}
   m_Lens:
@@ -2561,6 +2795,9 @@ MonoBehaviour:
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
+    <Orthographic>k__BackingField: 0
+    <SensorSize>k__BackingField: {x: 2.0412757, y: 1}
+    <IsPhysicalCamera>k__BackingField: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
     m_BlendHint: 0
@@ -2570,8 +2807,15 @@ MonoBehaviour:
         m_Calls: []
       m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+      m_CallsDirty: 1
   m_LegacyBlendHint: 0
+  <UserIsDragging>k__BackingField: 0
+  m_ComponentPipeline:
+  - {fileID: 1856313582}
+  - {fileID: 1856313583}
   m_ComponentOwner: {fileID: 1856313581}
+  mCachedLookAtTarget: {fileID: 771203814}
+  mCachedLookAtTargetVcam: {fileID: 0}
 --- !u!1 &1745672398
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,6 +2967,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_vcamOwner: {fileID: 1731056070}
+  mCachedFollowTarget: {fileID: 0}
+  mCachedFollowTargetVcam: {fileID: 0}
+  mCachedLookAtTarget: {fileID: 0}
+  mCachedLookAtTargetVcam: {fileID: 0}
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: -0.5481217, z: -11.552563}
   m_XDamping: 1
@@ -2733,6 +2982,11 @@ MonoBehaviour:
   m_YawDamping: 0
   m_RollDamping: 0
   m_AngularDamping: 0
+  <HideOffsetInInspector>k__BackingField: 0
+  m_PreviousTargetPosition: {x: 0, y: 0, z: 0}
+  m_PreviousReferenceOrientation: {x: 0, y: 0, z: 0, w: 1}
+  m_targetOrientationOnAssign: {x: 0, y: 0, z: 0, w: 1}
+  m_previousTarget: {fileID: 0}
 --- !u!114 &1856313583
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2745,6 +2999,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_vcamOwner: {fileID: 1731056070}
+  mCachedFollowTarget: {fileID: 0}
+  mCachedFollowTargetVcam: {fileID: 0}
+  mCachedLookAtTarget: {fileID: 771203814}
+  mCachedLookAtTargetVcam: {fileID: 0}
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 10
@@ -2760,6 +3019,11 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
+  <TrackedPoint>k__BackingField: {x: -26.141518, y: 1.0300026, z: -7.0053997}
+  m_CameraPosPrevFrame: {x: -20.552536, y: 3.501, z: -7.24}
+  m_LookAtPrevFrame: {x: -26.141518, y: 1.0300026, z: -7.0053997}
+  m_ScreenOffsetPrevFrame: {x: 0.000002475281, y: -0.0000032918192}
+  m_CameraOrientationPrevFrame: {x: 0.14903481, y: -0.67720556, z: 0.14291023, w: 0.70622796}
 --- !u!114 &1856313584
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2826,9 +3090,16 @@ MonoBehaviour:
   m_ExcludedPropertiesInInspector:
   - m_Script
   m_LockStageInInspector: 
+  m_ValidatingStreamVersion: 20170927
+  m_OnValidateCalled: 1
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
+  mExtensions: []
+  <PreviousStateIsValid>k__BackingField: 1
+  mSlaveStatusUpdated: 1
+  m_parentVcam: {fileID: 0}
+  m_QueuePriority: 10
   m_LookAt: {fileID: 35862514}
   m_Follow: {fileID: 0}
   m_Lens:
@@ -2837,6 +3108,9 @@ MonoBehaviour:
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
+    <Orthographic>k__BackingField: 0
+    <SensorSize>k__BackingField: {x: 2.0412757, y: 1}
+    <IsPhysicalCamera>k__BackingField: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
     m_BlendHint: 0
@@ -2846,8 +3120,15 @@ MonoBehaviour:
         m_Calls: []
       m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+      m_CallsDirty: 1
   m_LegacyBlendHint: 0
+  <UserIsDragging>k__BackingField: 0
+  m_ComponentPipeline:
+  - {fileID: 779728262}
+  - {fileID: 779728263}
   m_ComponentOwner: {fileID: 779728261}
+  mCachedLookAtTarget: {fileID: 35862514}
+  mCachedLookAtTargetVcam: {fileID: 0}
 --- !u!95 &1918355302
 Animator:
   serializedVersion: 3
