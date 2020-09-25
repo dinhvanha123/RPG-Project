@@ -62,16 +62,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Legacy\Drawers\BCategoryAttribute.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Legacy\Drawers\BInteractiveAttribute.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Legacy\Drawers\BLayersEnumAttribute.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Legacy\Drawers\BMessageAttribute.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Legacy\Drawers\BRangeOptionsAttribute.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Legacy\Drawers\BRangeSimpleAttribute.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Scripts\StyledEditor\HideScriptField.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledBanner.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledMessage.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledRangeOptions.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledSpace.cs" />
+    <Compile Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Scripts\StyledInspector\StyledTexturePreview.cs" />
+    <Compile Include="Assets\Scripts\Cinematics\CinematicControlRemover.cs" />
+    <Compile Include="Assets\Scripts\Cinematics\CinematicsTrigger.cs" />
+    <Compile Include="Assets\Scripts\Cinematics\FakePlayableDirector.cs" />
     <Compile Include="Assets\Scripts\Combat\CombatTarget.cs" />
     <Compile Include="Assets\Scripts\Combat\Fighter.cs" />
+    <Compile Include="Assets\Scripts\Control\AIController.cs" />
+    <Compile Include="Assets\Scripts\Control\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Control\CharacterController.cs" />
+    <Compile Include="Assets\Scripts\Control\PatrolPath.cs" />
     <Compile Include="Assets\Scripts\Control\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Core\ActionScheduler.cs" />
     <Compile Include="Assets\Scripts\Core\FollowCamera.cs" />
+    <Compile Include="Assets\Scripts\Core\Health.cs" />
     <Compile Include="Assets\Scripts\Core\IAction.cs" />
     <Compile Include="Assets\Scripts\Movement\Mover.cs" />
+    <None Include="Assets\Asset Packs\Animations\README - Usage Rights for these assets 1.txt" />
+    <None Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Legacy\Shaders\StandardLit Prototype Terrain.shader" />
+    <None Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Shaders\Unlit Prototype Ground.shader" />
+    <None Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Shaders\Unlit Prototype Skybox.shader" />
+    <None Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Legacy\Shaders\SimpleLit Prototype Terrain.shader" />
     <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
+    <None Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Tools\Texture Packer\Shaders\Texture Packer Blit.shader" />
+    <None Include="Assets\Asset Packs\BOXOPHOBIC\Utils\CGIncludes\VS_indirect.cginc" />
+    <None Include="Assets\Asset Packs\BOXOPHOBIC\Utils\Resources\Dummy Shader.shader" />
+    <None Include="Assets\Asset Packs\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>F:/VanHa/Unity/Unity3D/RPG Project/RPG Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>F:/VanHa/Unity/Unity3D/RPG Project/RPG Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/VanHa/Unity/Unity3D/RPG Project/RPG Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -81,6 +113,9 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>F:/VanHa/Unity/Unity3D/RPG Project/RPG Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>F:/VanHa/Unity/Unity3D/RPG Project/RPG Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>F:/VanHa/Unity/Unity3D/RPG Project/RPG Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
